@@ -16,26 +16,6 @@
 	<p>请按捺住鸡动的心... </p>
 </div>
 <div style="display: none;"><script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1278989814&web_id=1278989814"></script></div>
-<script type="text/javascript">
-$(function(){
-
-  var interval = setInterval(increment,100);
-  var current = 0;
-
-  function increment(){
-    current++;
-    $('#counter').html(current+'%'); 
-    if(current == 100) { current = 0; }
-  }
-
-  $('.load-bar').mouseover(function(){
-            clearInterval(interval);
-  }).mouseout(function(){
-      interval = setInterval(increment,100);
-         });
-
-});
-</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167810957-2"></script>
 <script>
