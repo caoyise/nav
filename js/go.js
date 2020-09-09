@@ -1,5 +1,5 @@
 function ok() {
-	window.parent.parent.location.href = 'https://caoyise.xyz'
+	window.parent.parent.location.href = 'https://caoyise.icu'
 }
 window.setTimeout("ok();", 1000);
 function countDown(secs) {
